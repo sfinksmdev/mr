@@ -34,8 +34,10 @@ body {
 
 .description {
   margin: 1em auto;
-  padding: 3em;
+  padding-left: 3em;
+  padding-right: 3em;
   padding-top: 6em;
+  padding-bottom: 1em;
   position: relative;
   top: 10%;
   text-align: left;
