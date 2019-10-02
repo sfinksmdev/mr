@@ -186,3 +186,36 @@ body {
   color: #666;
   padding: 40px 0;
 }
+
+.h5 {
+  padding-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #ccc;
+  border-collapse: collapse;
+}
+
+table.a {
+  table-layout: auto;
+  width: 550px;
+}
+
+table.b {
+  table-layout: auto;
+  width: 600px;
+}
+
+.cell2{
+    padding-left: 20px;
+    /*width: 300px;*/
+    text-align: left;
+}
+
+.cell1{
+  padding-left: 20px;
+  width: 300px;
+}
