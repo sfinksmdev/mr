@@ -5,6 +5,7 @@ if(navigator.language.substring(0,2) == "es"){
   document.getElementById('sp').style.display=""
   document.getElementById('sp-h').style.display=""
   document.getElementById('sp-f').style.display=""
+  document.title = "MR - Política de Privacidad y Términos"
 } else {
   document.getElementById('en').style.display=""
   document.getElementById('en-h').style.display=""
