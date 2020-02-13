@@ -58,7 +58,6 @@
     </div>
   </nav>
 
-
   <div class="content" id="en">
     <div>
       <font size="18">FAQ</font><br><br>
@@ -76,34 +75,34 @@
       </ol>
 
       <p>When MR is open and ready to use, the user sees the following screen</p>
-      <table cellpadding="15dp" style="width:100%">
-        <tr>
-          <td><img id="maingui" src="img/maingui.png" width=250></td>
-          <td><img id="maingui" src="img/maingui1.png" width=250></td>
-          <td>
-            The user has the following options:<br><br>
-            <ol>
-              <li><b>Go to <i>"Settings"</i> at the three vertical dots on the top right corner:</b> Here you can set the general settings of MR, read information about MR, and access the extra options on paid versions.<br>
-                In general settings, the user has the following options:
-                <ul style="list-style-type:circle;">
-                  <li>Select the recording camera from the list of cameras available in the device.</li>
-                  <li>Set the maximum recording lenght for each recorded file.</li>
-                  <li>Enable/disable vibration notifications when MR has started/stopped recording.</li>
-                  <li>Enable/disable the option to hide files. When <i>Hide MR files</i> is active all the recorded files are hidden from the device's gallery.</li>
-                </ul></li>
-              <li><b>Tap the red rounded camera button:</b> MR starts to record video according to the current settings. The recorded time is shown on the upper part of the MR screen.</li>
-              <li><b>Tap the red rounded microphone button:</b> MR starts to record audio according to the current settings. The recorded time is shown on the upper part of the MR screen.</li>
-              <li><b>Tap the <i>"Record/stop with volume keys."</i> check box:</b> MR activates the functionality to record/stop with volume keys. When active, MR displays the options of audio or video and a notification will appear to remind the user that the volume keys are enabled.</li>
-              <li><b>Tap the yellow button with a <i>"-"</i> on the bottom right part of the screen:</b> MR app is sent to the background. MR will be still active and the user can use other apps without interfering with MR tasks.</li>
-            </ol>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="3">All the recordings done with MR are in the backgroung. This means that no previews are displayed on the screen while recording with MR.
-            MR recordings are not interrupted if the app is sent to the background (for instance, by pressing the back button, by tapping on the yellow button, or by switching to another app). Recording through volume keys can be done while MR is in the background.
-          </td>
-        </tr>
-      </table>
+
+      <div class="wrapper">
+      <div class="scrolls">
+      <div class="imageDiv">
+          <img id="s1" src="img/maingui.png" width=250>
+          <img id="s2" src="img/maingui1.png" width=250>
+      </div>
+      </div>
+      </div>
+
+      <p>The user has the following options:</p>
+      <ol>
+        <li><b>Go to <i>"Settings"</i> at the three vertical dots on the top right corner:</b> Here you can set the general settings of MR, read information about MR, and access the extra options on paid versions.<br>
+          In general settings, the user has the following options:
+          <ul style="list-style-type:circle;">
+            <li>Select the recording camera from the list of cameras available in the device.</li>
+            <li>Set the maximum recording lenght for each recorded file.</li>
+            <li>Enable/disable vibration notifications when MR has started/stopped recording.</li>
+            <li>Enable/disable the option to hide files. When <i>Hide MR files</i> is active all the recorded files are hidden from the device's gallery.</li>
+          </ul></li>
+        <li><b>Tap the red rounded camera button:</b> MR starts to record video according to the current settings. The recorded time is shown on the upper part of the MR screen.</li>
+        <li><b>Tap the red rounded microphone button:</b> MR starts to record audio according to the current settings. The recorded time is shown on the upper part of the MR screen.</li>
+        <li><b>Tap the <i>"Record/stop with volume keys."</i> check box:</b> MR activates the functionality to record/stop with volume keys. When active, MR displays the options of audio or video and a notification will appear to remind the user that the volume keys are enabled.</li>
+        <li><b>Tap the yellow button with a <i>"-"</i> on the bottom right part of the screen:</b> MR app is sent to the background. MR will be still active and the user can use other apps without interfering with MR tasks.</li>
+      </ol>
+      <p>All the recordings done with MR are in the backgroung. This means that no previews are displayed on the screen while recording with MR.
+        MR recordings are not interrupted if the app is sent to the background (for instance, by pressing the back button, by tapping on the yellow button, or by switching to another app). Recording through volume keys can be done while MR is in the background.
+      </p>
     </div>
 
     <button class="accordion">How to grant MR the permissions it needs?</button>
@@ -169,42 +168,40 @@
         <li><b>MR es abierto y ningún mensaje es mostrado:</b> En este caso MR está listo para funcionar.</li>
       </ol>
 
-
       <p>Cuando MR está abierto y listo para ser usado, el usuario ve la siguiente pantalla:</p>
-      <table cellpadding="15dp" style="width:100%">
-        <tr>
-          <td><img id="maingui" src="img/maingui-es.png" width=250></td>
-          <td><img id="maingui" src="img/maingui1-es.png" width=250></td>
-          <td>
-            El usuario tiene las siguientes opciones:<br><br>
-            <ol>
-              <li><b>Ir a <i>"Configuración"</i> en los tres puntos verticales en la parte superior derecha:</b> Aquí se puede modificar la configuración general, obtener información acerca de MR, y acceder las opciones extras en versiones pagas.<br>
-                En configuración general el usuario tiene las siguientes opciones:
-                <ul style="list-style-type:circle;">
-                  <li>Seleccionar la cámara de grabación de la lista de cámaras disponibles en el dispositivo.</li>
-                  <li>Escoger la máxima longitud de grabación para cada archivo grabado.</li>
-                  <li>Activar/desactivar notificaciones de vibración al inicio/final de cada grabación.</li>
-                  <li>Activar/desactivar la opción de ocultar archivos. Cuando la opción de <i>Ocultar archivos MR</i> está activada todos los archivos grabados estarán ocultos de la galería del dispositivo.</li>
-                </ul></li>
-              <li><b>Presionar sobre el botón circular rojo con una cámara:</b> MR comienza a grabar video de acuerdo a la configuración actual. El tiempo transcurrido de grabación es mostrado en la parte superior de la pantalla de MR.</li>
-              <li><b>Presionar sobre el botón circular rojo con un microfono:</b> MR comienza a grabar audio de acuerdo a la configuración actual. El tiempo transcurrido de grabación es mostrado en la parte superior de la pantalla de MR.</li>
-              <li><b>Presionar sobre el cuadro de <i>"Grabar/parar con las teclas de volume."</i> :</b> MR activa la funcionalidad de grabar/parar con las teclas de volume. En caso de estar activa, MR muestra las opciones de audio o video y una notificacion aparecera para recordar al usuario que las teclas de volume están activas.</li>
-              <li><b>Presionar el botón amarillo con un <i>"-"</i> en la parte inferior derecha de la pantalla:</b> La aplicación MR es enviada a segundo plano. MR seguirá activa y el usuario puede usar otras aplicaciones sin intervenir con las tareas de MR.</li>
-            </ol>
-          </td>
-        </tr>
-        <tr>
-          <td colspan="3">Todas las grabaciones hechas con MR son en segundo plano. Esto significa que no hay vistas preliminares en la pantalla del dispositivo en el instante de hacer grabaciones por medio de MR.
-            Las grabaciones de MR no son interrumpidas cuando la aplicación es enviada a segundo plano (por ejemplo, cuando se presiona el botón <i>"atras"</i>, cuando se presiona el botón amarillo, o cuando otra aplicacion está en primer plano). Grabaciones por medio de las teclas de volume se pueden hacer mientras MR está en segundo plano.
-          </td>
-        </tr>
-      </table>
+      <div class="wrapper">
+      <div class="scrolls">
+      <div class="imageDiv">
+          <img id="ss1" src="img/maingui-es.png" width=250>
+          <img id="ss2" src="img/maingui1-es.png" width=250>
+      </div>
+      </div>
+      </div>
+
+      <p>El usuario tiene las siguientes opciones:</p>
+      <ol>
+        <li><b>Ir a <i>"Configuración"</i> en los tres puntos verticales en la parte superior derecha:</b> Aquí se puede modificar la configuración general, obtener información acerca de MR, y acceder las opciones extras en versiones pagas.<br>
+          En configuración general el usuario tiene las siguientes opciones:
+          <ul style="list-style-type:circle;">
+            <li>Seleccionar la cámara de grabación de la lista de cámaras disponibles en el dispositivo.</li>
+            <li>Escoger la máxima longitud de grabación para cada archivo grabado.</li>
+            <li>Activar/desactivar notificaciones de vibración al inicio/final de cada grabación.</li>
+            <li>Activar/desactivar la opción de ocultar archivos. Cuando la opción de <i>Ocultar archivos MR</i> está activada todos los archivos grabados estarán ocultos de la galería del dispositivo.</li>
+          </ul></li>
+        <li><b>Presionar sobre el botón circular rojo con una cámara:</b> MR comienza a grabar video de acuerdo a la configuración actual. El tiempo transcurrido de grabación es mostrado en la parte superior de la pantalla de MR.</li>
+        <li><b>Presionar sobre el botón circular rojo con un microfono:</b> MR comienza a grabar audio de acuerdo a la configuración actual. El tiempo transcurrido de grabación es mostrado en la parte superior de la pantalla de MR.</li>
+        <li><b>Presionar sobre el cuadro de <i>"Grabar/parar con las teclas de volume."</i> :</b> MR activa la funcionalidad de grabar/parar con las teclas de volume. En caso de estar activa, MR muestra las opciones de audio o video y una notificacion aparecera para recordar al usuario que las teclas de volume están activas.</li>
+        <li><b>Presionar el botón amarillo con un <i>"-"</i> en la parte inferior derecha de la pantalla:</b> La aplicación MR es enviada a segundo plano. MR seguirá activa y el usuario puede usar otras aplicaciones sin intervenir con las tareas de MR.</li>
+      </ol>
+      <p>Todas las grabaciones hechas con MR son en segundo plano. Esto significa que no hay vistas preliminares en la pantalla del dispositivo en el instante de hacer grabaciones por medio de MR.
+        Las grabaciones de MR no son interrumpidas cuando la aplicación es enviada a segundo plano (por ejemplo, cuando se presiona el botón <i>"atras"</i>, cuando se presiona el botón amarillo, o cuando otra aplicacion está en primer plano). Grabaciones por medio de las teclas de volume se pueden hacer mientras MR está en segundo plano.
+      </p>
     </div>
 
     <button class="accordion">Cómo otorgar a MR los permisos que requiere?</button>
     <div class="panel">
       <p>Usualmente los permisos pueden ser otorgados en el momento en que MR es abierto y pregunta al usuario sobre los permisos que requiere.
-      Para activar los permisos por medio de la configuración del dispositivo se debe ir a <b>Configuración->Administrador de aplicaciones->MR->Permisos</b>. En algunos casos el usuario también debe 
+      Para activar los permisos por medio de la configuración del dispositivo se debe ir a <b>Configuración->Administrador de aplicaciones->MR->Permisos</b>. En algunos casos el usuario también debe
       ir a <b>Configuración->Administrador de aplicaciones->MR->Avanzada->Mostrar sobre otras aplicaciones</b> para permitir MR grabar en segundo plano.</p>
     </div>
 
@@ -246,6 +243,19 @@
     <div class="panel">
       <p>No.</p>
     </div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- The Close Button -->
+    <!--<span class="close">&times;</span>-->
+
+    <!-- Modal Content (The Image) -->
+    <img class="modal-content" id="ms">
+
+    <!-- Modal Caption (Image Text) -->
+    <div id="caption"></div>
   </div>
 
   <footer class="page-footer" id="contact">
